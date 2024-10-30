@@ -236,6 +236,10 @@ align-items: center;
     height: 100%;
     width: 50%;
 }
+.rightside iframe{
+    width: 100%;
+    height: 100%;
+}
 
 
 
