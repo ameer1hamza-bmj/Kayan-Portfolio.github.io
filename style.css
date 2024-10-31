@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
 }
+ body{
+    background-color: #0D1117;
+ }
 .section1{
     height: 600px;
     width: 100%;
@@ -83,6 +86,7 @@ top: 10px;
     cursor: pointer;
     position: relative;
     top: 30px;
+    border-radius: 5px;
 }
 .btn:hover{
     background-color: white;
@@ -95,9 +99,10 @@ top: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: #0D1117;
 }
 .section2 h1{
-    color: black;
+    color: white;
     font-weight: bolder;
     font-size: 8vmin;
     font-family: "Montserrat", sans-serif;
@@ -106,6 +111,7 @@ align-items: center;
     height: 200px;
     width: 100%;
     display: flex;
+    background-color: #0D1117; 
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -113,20 +119,23 @@ align-items: center;
 .section3 h3{
 font-size: 5vmin;
 font-family: "Montserrat", sans-serif;
+color: white;
 }
 .section3 p{
 font-size: 2.5vmin;
 text-align: center;
+color: white;
 }
 .section35{
     height: 100px;
     width: 100%;
+    background-color: #0D1117;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .section35 h1{
-    color: black;
+    color: white;
     font-weight: bolder;
     font-size: 8vmin;
     font-family: "Montserrat", sans-serif;
@@ -138,6 +147,7 @@ align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: #0D1117;
 }
 .card1{
     height: 250px;
@@ -157,16 +167,16 @@ align-items: center;
 .btn2{
     height: 40px;
     width: 150px;
-    color: black;
+    color: white;
  background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid white;
     cursor: pointer;
     border-radius: 3px;
 font-weight: bolder;
 }
 .btn2:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 0.5s;
 }
 .card1 img{
@@ -181,12 +191,24 @@ font-weight: bolder;
 .card1 img:hover{
 filter: brightness(50%);
 }
+.section45{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.section45 h1{
+    font-size: 8vmin;
+font-family: "Montserrat", sans-serif;
+color: white;
+font-weight: bolder;
+}
 .section5{
     height: 500px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: #F7F7F7;
+    background-color: #0D1117;
 }
 .leftside{
     height: 100%;
@@ -195,6 +217,7 @@ filter: brightness(50%);
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .first{
     height: 100px;
@@ -209,9 +232,10 @@ filter: brightness(50%);
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .icon1 i{
-    color: #47474C;
+    color: white;
     font-size: 6.5vmin;
 }
 .call{
@@ -235,10 +259,6 @@ align-items: center;
 .rightside{
     height: 100%;
     width: 50%;
-}
-.rightside iframe{
-    width: 100%;
-    height: 100%;
 }
 
 
